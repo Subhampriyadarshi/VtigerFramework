@@ -26,7 +26,9 @@ public class AutomateMakeMyTrip {
 	     p.load(fis);
 	     String url=p.getProperty("url1");
 	     driver.get(url);
-	     
+		
+	     System.out.println(url);
+		     
 	     //closing the popups
 	     driver.findElement(By.xpath("//span[@class='langCardClose']")).click();
 	      
